@@ -7,5 +7,5 @@ public record Dadosendereco(
                             String cidade,
                             String uf,
                             String complemento,
-                            String numer) {
+                            String numero) {
 }
