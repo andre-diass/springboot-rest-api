@@ -14,6 +14,9 @@ import java.time.ZoneOffset;
 @Service
 public class TokenService {
 
+    @Value("${api.security.token.secret}")
+    private String secret;
+
     public String gerarToken(Usuario usuario) {
         try {
             var algoritmo = Algorithm.HMAC256("123456");
