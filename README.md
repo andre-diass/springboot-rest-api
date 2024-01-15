@@ -14,13 +14,13 @@ to explain the tools and models behind it in form of discursive and visual expla
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
+- [Functionalities](#functionalities)
+- [Layout](#layout)
+- [Documentation](#documentation)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
+- [Tests](#tests)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+
 
 ## 💻 About <a name = "about"></a>
  Voll.med is a fictional medical clinic that needs an application for appointment management. 
@@ -57,20 +57,20 @@ These instructions will get you a copy of the project up and running on your loc
 See the Java Maps SDK [system requirements](https://developers.arcgis.com/java/reference/system-requirements/).
 
 
-## Functionalities
+## Functionalities <a name = "functionalities"></a>
 
 - [x] CRUD de doctors;
 - [x] CRUD de pacients;
 - [x] Scheduling of appointments;
 - [x] Canceling of appointments.
 
-### 🎨 Layout
+### 🎨 Layout <a name = "layout"></a>
 
 The layout of the mobile application is available at this link: <a href="https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med">Figma</a>
 
 ---
 
-## 📄 Documentação
+## 📄 Documentação <a name = "documentation"></a>
 
 The documentation for this application can be accessed here: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
 
@@ -81,7 +81,6 @@ On ``` /src/test ``` run selected package
 
 ### Break down into the tests
 These tests ensure that the ConsultaController behaves correctly in different scenarios, handling both invalid and valid input. The use of Spring's testing annotations and features like @WithMockUser, @AutoConfigureMockMvc, and @AutoConfigureJsonTesters helps set up the necessary environment for testing Spring MVC controllers and JSON serialization, and also ensures that the MedicoRepository correctly queries the database and returns the expected results when checking the availability of doctors for consultations on specific dates and times.
-
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
